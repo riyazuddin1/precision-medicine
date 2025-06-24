@@ -1,0 +1,56 @@
+.symptoms-page {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.symptom-form {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.symptom-form input,
+.symptom-form select,
+.symptom-form textarea {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.symptom-form button {
+  padding: 0.8rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.log-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.log-card {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-summary {
+  background: #f0f8ff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}

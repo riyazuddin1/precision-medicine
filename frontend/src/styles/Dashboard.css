@@ -1,0 +1,195 @@
+.dash-page {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f3faff, #eaf3ff);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #003366;
+  position: relative;
+}
+
+/* Header */
+.dash-header {
+  margin-bottom: 2rem;
+}
+
+.dash-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.dash-header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Layout Panels */
+.dash-layout {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.left-panel {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.right-panel {
+  flex: 2;
+  min-width: 300px;
+}
+
+/* Profile Card */
+.profile-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.profile-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.profile-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.profile-card button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  background-color: #005f99;
+}
+
+/* AI Tip */
+.ai-tip {
+  background: #e0f7ff;
+  border-left: 6px solid #007acc;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.03);
+}
+
+.ai-tip h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Motivation Box */
+.motivation-box {
+  background: #fff6ec;
+  border-left: 6px solid #ffb84d;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.03);
+}
+
+.motivation-box h4 {
+  margin-bottom: 0.5rem;
+  color: #cc7a00;
+  font-size: 1rem;
+}
+
+/* Reminder Box */
+.reminder-box {
+  background: #e0ffe0;
+  border-left: 5px solid #4CAF50;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+.reminder-box h4 {
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+  font-size: 1rem;
+}
+
+/* Right Panel Heading */
+.right-panel h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Feature Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Feature Card */
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-text h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #002c5c;
+}
+
+.feature-text p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.open-btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.open-btn:hover {
+  background: #005c94;
+}
+
+/* Footer / End Padding */
+.dashboard-footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+/* Optional Fade Effect at Bottom */
+.dash-page::after {
+  content: "";
+  display: block;
+  height: 60px;
+  background: linear-gradient(to bottom, transparent, #eaf4ff);
+}

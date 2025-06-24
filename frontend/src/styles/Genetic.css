@@ -1,0 +1,45 @@
+.genetic-page {
+  padding: 3rem 2rem;
+  background: linear-gradient(to bottom right, #f4fbff, #eaf3ff);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.genetic-page h1 {
+  font-size: 2.4rem;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.sub {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.profile-summary {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.gene-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.gene-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+}
+
+.gene-card h3 {
+  color: #005580;
+  margin-bottom: 0.5rem;
+}

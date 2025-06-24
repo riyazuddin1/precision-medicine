@@ -1,0 +1,26 @@
+.medical-page {
+  padding: 2rem;
+  background: #fcfcfc;
+  color: #222;
+}
+
+.user-info {
+  background-color: #f1f3f5;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.guidance-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guidance-card {
+  padding: 1rem;
+  background: #ffffff;
+  border-left: 5px solid #5f27cd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}

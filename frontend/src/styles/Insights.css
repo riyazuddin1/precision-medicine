@@ -1,0 +1,27 @@
+.insights-page {
+  padding: 2rem;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.profile-glance {
+  margin: 1rem 0;
+  background: #eaf4ff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.insight-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.insight-item {
+  background: #ffffff;
+  border-left: 5px solid #4dabf7;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
